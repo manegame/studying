@@ -5,6 +5,8 @@
 <p align="center"><a href="" target="_blank"><img width="100"src="https://frontendmasters.com/assets/functional-js.png"></a></p>
 <p align="center"><a href="" target="_blank"><img width="100"src="http://v2.wp-api.org/assets/images/banner.jpg"></a></p>
 
+SDFGHJK
+
 # Resources
 
 - Video

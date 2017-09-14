@@ -21,6 +21,44 @@ SDFGHJK
 
 # Notes
 
+## why???
+
+### passing variables around versus doing it all more clean and dynamically
+
+STATUS: Question
+
+While trying to implement this piece of seemingly simple code into a Vue project. I came across the problem of passing a variable in this scope system of JS in vue.  
+
+    var imgs = document.images,
+        len = imgs.length,
+        counter = 0;
+
+    [].forEach.call( imgs, function( img ) {
+        img.addEventListener( 'load', incrementCounter, false );
+    } );
+
+    function incrementCounter() {
+        counter++;
+        if ( counter === len ) {
+            console.log( 'All images loaded!' );
+        }
+    }
+
+Ok, so I got as far as understanding it might be best to add a listener for each image to load. This search for an answer also re- reminded me that I should up my knowledge of basic JS. Probably by re-doing some work.
+
+Also I saw very refined programming from Rasmus' side in the setContent function of Bini Abidi
+
+## Node
+
+### Node `process.argv`
+
+Prints the command line arguments passed to node in an array
+
+    print process.argv
+    process.argv.forEach((val, index, array) => {
+      console.log(index + ':' + val)
+    })
+
 ## Things to try
 
 For asynchronous functions, try this
@@ -50,6 +88,10 @@ Vue Problem: Not sure how to commit a mutation without setting the content
 
 
 ## JS
+
+### forEach.call() method
+
+https://stackoverflow.com/questions/16053357/what-does-foreach-call-do-in-javascript
 
 ### Rest Parameter  `…`
 

@@ -10,8 +10,9 @@ let animals = [
   { name: 'Benedikte', species: 'snake' },
 ]
 
-let names = animals.map((animal) => {
-  return animal.name + ' is a ' + animal.species
-})
+let names = animals.map((x) => x.name)
+// let names = animals.map((animal) => {
+//   return animal.name + ' is a ' + animal.species
+// })
 
 console.log(names)
